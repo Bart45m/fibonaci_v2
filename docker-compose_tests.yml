@@ -6,7 +6,7 @@ services:
       - CHODIKAR_USEPOLLING=true
     build:
       context: .
-      dockerfile: Dockerfile_volmens.yml
+      dockerfile: Dockerfile_volumens.yml
     ports:
       - '3000:3000'
     volumes:
