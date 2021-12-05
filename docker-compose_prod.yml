@@ -6,6 +6,6 @@ services:
       - CHODIKAR_USEPOLLING=true
     build:
       context:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile_prod.yml
     ports:
       - "80:80"
